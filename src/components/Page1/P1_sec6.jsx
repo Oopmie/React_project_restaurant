@@ -14,6 +14,7 @@ export default function P1_sec6() {
                         slidesPerView={1}
                         spaceBetween={30}
                         loop={true}
+                        initialSlide={3}
                         pagination={{
                             clickable: true,
                         }}

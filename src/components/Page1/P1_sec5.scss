@@ -19,7 +19,7 @@
         display: flex;
         justify-content: space-around;
         .man{
-            height: 75vh;
+            height: 68vh;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -28,12 +28,12 @@
                 color: #311F09;
                 font-size: 25px;
                 font-weight: 600;
+                line-height: 60px;
             }
             p{
                 color: #A08D76;
                 font-size: 25px;
                 font-weight: 400;
-                height: 10vh;
             }
         }
     }
