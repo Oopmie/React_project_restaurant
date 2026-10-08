@@ -1,0 +1,48 @@
+.container{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    .contain{
+        width: 85vw;
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .first{
+            width: 30vw;
+            h1{
+                color: #311F09;
+                font-size: 70px;
+                font-weight: 700;
+                margin-bottom: 4vh;
+            }
+            span{
+                color: #FF8A00;
+            }
+            p{
+                color: #5C4529;
+                font-size: 25px;
+                font-weight: 400;
+                line-height: 50px;
+            }
+        }
+    }
+}
+.container2{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    .contain2{
+        height: 70vh;
+        width: 80vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        p{
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 50px;
+            color: #5C4529;
+        }
+    }
+}

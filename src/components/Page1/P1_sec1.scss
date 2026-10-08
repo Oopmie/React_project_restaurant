@@ -1,0 +1,76 @@
+.container{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    .cont_rest{
+        width: 70vw;
+        height: 90vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .c{
+            width: 40vw;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .rest{
+                width: 8vw;
+                height: 4vh;
+                background-color: rgba(255, 138, 0, 0.15);
+                border: 1px solid rgba(255, 138, 0, 0.15);
+                border-radius: 30px;
+                font-size: 18px;
+                color: #FF8A00;
+                font-weight: 400;
+            }
+            h2{
+                height: 18vh;
+                display: flex;
+                align-items: center;
+                color: #311F09;
+                font-size: 60px;
+                font-weight: 700;
+            }
+            p{
+                color: #5C4529;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 40px;
+            }
+            .buts{
+                width: 25vw;
+                height: 13vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+                .but1{
+                    width: 12vw;
+                    height: 8vh;
+                    background-color: #FF8A00;
+                    border: 1px solid #FF8A00;
+                    border-radius: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #FFFFFF;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                .but2{
+                    width: 12vw;
+                    height: 8vh;
+                    background-color: #3FA72F;
+                    border: 1px solid #3FA72F;
+                    border-radius: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #FFFFFF;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }   
+        }
+    }
+}

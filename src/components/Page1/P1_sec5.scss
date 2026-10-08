@@ -1,0 +1,56 @@
+.text{
+    width: 98vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        color: #311F09;
+        font-size: 80px;
+        font-weight: 700;
+    }
+}
+.container{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    .contain{
+        width: 60vw;
+        display: flex;
+        justify-content: space-around;
+        .man{
+            height: 75vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            h2{
+                color: #311F09;
+                font-size: 25px;
+                font-weight: 600;
+            }
+            p{
+                color: #A08D76;
+                font-size: 25px;
+                font-weight: 400;
+                height: 10vh;
+            }
+        }
+    }
+}
+.but{
+    width: 98vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    button{
+        width: 12vw;
+        height: 8vh;
+        border: 1px solid #FF8A00;
+        background-color: #FF8A00;
+        border-radius: 40px;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

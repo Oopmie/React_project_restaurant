@@ -1,0 +1,45 @@
+.container {
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+
+    .contain {
+        width: 80vw;
+        height: 90vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        p {
+            color: #5C4529;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 44px;
+        }
+
+        h2 {
+            color: #311F09;
+            font-size: 70px;
+            font-weight: 700;
+            height: 24vh;
+        }
+
+        h3 {
+            color: #000000;
+            font-size: 36px;
+            font-weight: 600;
+        }
+
+        h5{
+            color: rgb(241, 199, 146);
+            font-size: 50px;
+        }
+        h5:last-child{
+            display: flex;
+            justify-content: end;
+        }
+        span {
+            color: #FF8A00;
+        }
+    }
+}
